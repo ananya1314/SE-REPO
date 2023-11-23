@@ -1,67 +1,79 @@
 Apartment Management System (AMS) 
-Table of Contents
-Introduction
-Features
-Getting Started
-Prerequisites
-Installation
-Configuration
-Usage
-User Roles
-Functionality
-Contributing
-Testing
-Issues
-License
-Acknowledgements
+1) Table of Contents
+2) Introduction
+3) Features
+4) Getting Started
+5) Prerequisites
+6) Installation
+7) Configuration
+8) Usage
+9) User Roles
+10) Functionality
+11) Contributing
+12) Testing
+13) Issues
+14) License
+15) Acknowledgements
 Introduction
 The Apartment Management System (AMS) is a comprehensive system designed to facilitate the management of apartment complexes, providing features for tenants, property managers, maintenance staff, and administrators.
 
 Features
-Tenant Management: Maintain tenant profiles, lease information, and communication channels.
-Maintenance Requests: Allow tenants to submit and track maintenance requests.
-Lease Management: Manage lease agreements, renewals, and related financial transactions.
-Notifications: Keep users informed through notifications about important events and updates.
-Payment Processing: Handle rent payments and financial transactions securely.
-Getting Started
-Prerequisites
-[List any dependencies or prerequisites required to run the system]
-Installation
-[Provide step-by-step instructions on how to install the system]
-[Include any configuration steps]
-Configuration
-[Specify any configuration settings or environment variables]
-Usage
-User Roles
-Tenant:
+-> Tenant Management: Maintain tenant profiles, lease information, and communication channels.
+-> Maintenance Requests: Allow tenants to submit and track maintenance requests.
+-> Lease Management: Manage lease agreements, renewals, and related financial transactions.
+-> Notifications: Keep users informed through notifications about important events and updates.
+-> Payment Processing: Handle rent payments and financial transactions securely.
 
+Installation
+1. Install Python:
+For Windows:
+Visit the official Python website: Python Downloads.
+Download the latest version of Python for Windows.
+Run the installer and select the option to add Python to the system PATH during installation.
+Complete the installation process.
+For macOS:
+Open the terminal.
+Install Homebrew if not already installed:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+Install Python using Homebrew:
+brew install python
+For Linux:
+Use the package manager specific to your distribution (e.g., apt for Ubuntu, yum for CentOS) to install Python.
+
+2. Install MySQL:
+For Windows:
+Visit the official MySQL website: MySQL Downloads.
+Download the MySQL Installer for Windows.
+Run the installer and follow the instructions.
+During installation, set a root password for MySQL.
+For macOS:
+Install MySQL using Homebrew:
+Copy code
+brew install mysql
+Start the MySQL service:
+Copy code
+brew services start mysql
+For Linux:
+Use the package manager specific to your distribution to install MySQL Server.
+
+Usage
+Tenant:
 View lease details
 Submit maintenance requests
 Property Manager:
-
 Manage tenant information
 Access financial reports
 Maintenance Staff:
-
 View and update maintenance requests
 Administrator:
-
 Configure system settings
 Access all functionalities
+
 Functionality
-[Describe key functionalities of the system, how users can interact with the features, and any other relevant information]
+The major functions:
+● User management
+● Lease management
+● Maintenance requests
+● Communication between the community
 
-Contributing
-[Provide guidelines for contributing to the project, including how to report issues or submit pull requests]
 
-Testing
-[Include information about how to run tests and any specific testing procedures]
-
-Issues
-[Encourage users to report issues or bugs, providing guidance on how to do so]
-
-License
-[Specify the license under which the AMS is distributed]
-
-Acknowledgements
-[List any acknowledgments, credits, or external resources that inspired or contributed to the project]
