@@ -1,19 +1,12 @@
 Apartment Management System (AMS) 
-1) Table of Contents
-2) Introduction
-3) Features
-4) Getting Started
-5) Prerequisites
-6) Installation
-7) Configuration
-8) Usage
-9) User Roles
+Table of Contents
+1) Introduction
+2) Features
+3) Installation
+4) Usage
+5) User Roles
 10) Functionality
-11) Contributing
-12) Testing
-13) Issues
-14) License
-15) Acknowledgements
+
 Introduction
 The Apartment Management System (AMS) is a comprehensive system designed to facilitate the management of apartment complexes, providing features for tenants, property managers, maintenance staff, and administrators.
 
